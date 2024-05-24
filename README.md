@@ -12,71 +12,51 @@
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti</a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano F. Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/">Alexsandro Roberto</a>, <a href="https://www.linkedin.com/in/fabiano-on%C3%A7a-3214a12/">Fabiano Onça</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata Muniz</a>
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O projeto foi desenvolvido para Constellation Corretora de Seguros, uma empresa que atua no mercado securitário desde 2010 como pessoa jurídica, mas como pessoa física atua desde 2002, prestando serviço a diversas seguradoras. Oferece produtos de seguros em geral, como por exemplo: Seguros de vida, plano de saúde, seguro residencial, automóvel entre outros. O objetivo do site é captar novos clientes, trazer breves informações sobre os produtos de seguro e trazer visibilidade para empresa.
 
-In the project directory, you can run:
+### Objetivos:
 
-### `npm start`
+- Captar novos clientes
+- Explicar brevemente sobre os produtos oferidos
+- Demonstrar os beneficios da contratação do produto.
+- Permitir que o cliente busque ajuda para assistencia 24 horas.
+- Permitir que o cliente encontre links úteis para serviços relacionados a tabela FIPE, boletim de ocorrência e telefones de emergência.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Front-end
 
-### `npm test`
+- **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **Tailwind CSS**: Para estilização e design responsivo.
+- **Next JS**: Gerenciamento de rotas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-end
 
-### `npm run build`
+- **Node.js**: Ambiente de execução do JavaScript no servidor.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para configurar e executar o projeto localmente, siga estas etapas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `npm run eject`
+- Node.js (versão recomendada: 18.x ou superior)
+- NPM (incluído com o Node.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Instalação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone o repositório do projeto:
+   ```sh
+   git clone https://github.com/LutoBeibe/Constellation-corretora.git
+   ```
+2. Navegue até a pasta do projeto e instale as dependências:
+   ```sh
+   cd Constellation-corretora
+   npm install
+   ```
+3. Inicie o terminal na pasta do projeto, e rode o comando:
+   ```sh
+   npm run dev
+   ```
+4. Abra o navegador e acesse `http://localhost:3000` para visualizar o site.
