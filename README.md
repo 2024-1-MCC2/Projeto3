@@ -31,7 +31,7 @@ O projeto foi desenvolvido para a Secretaria de Educação de Embu das Artes, um
 ### Back-end
 
 - **MySQL**: Criação e inplementação do banco de dados.
-- - **Azure**: Criação do servidor para o banco de dados.
+- **Azure**: Criação do servidor para o banco de dados.
 - **Node.js**: Ambiente de execução do JavaScript no servidor.
 
 ## 🛠 Instalação
