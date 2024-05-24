@@ -21,6 +21,7 @@ Back-end
 MySQL: para criação e execução do banco de dados.
 Azure: Criação do servidor.
 Node.js: Ambiente de execução do JavaScript no servidor.
+
 🛠 Instalação
 Para configurar e executar o projeto localmente, siga estas etapas:
 
