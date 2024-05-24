@@ -8,7 +8,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/mariaeflopes/">Maria Eduarda de Freitas Lopes</a>, <a href="https://www.linkedin.com/in/flavio-santos-289477209/">Flavio José</a>, <a href="https://www.linkedin.com/in/jenifer-barreto-55022523b/">Jenifer Barreto</a>, <a href="https://www.linkedin.com/in/paulo-jose-b496ba17a/">Paulo José dos Santos Junior</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/katia-bossi/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/jésus-gomes-83b769108/">Jésus Gomes</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/katia-bossi/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/jésus-gomes-83b769108/">Jésus Gomes</a>,  <a href="#">Joao Pedro da Costa Pinto</a>
 # Getting Started with Create React App
 
 ## Descrição
