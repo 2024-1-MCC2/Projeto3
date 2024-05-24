@@ -20,8 +20,8 @@ O projeto foi desenvolvido para a Secretaria de Educação de Embu das Artes, um
 - Captar novos estudantes
 - Explicar brevemente sobre os progamas e projetos oferidos
 - Demonstrar os beneficios da retomada dos estudos.
-- Permitir que o estudante busque ajuda para assistencia nos estudos
-- Permitir que o estudante encontre links úteis para serviços relacionados a lesgislação, projetos, materiais pedagógicos entre outros
+- Permitir que o estudante busque ajuda para assistencia nos estudos.
+- Permitir que o estudante encontre links úteis para serviços relacionados a lesgislação, projetos, materiais pedagógicos entre outros.
 
 ### Front-end
 
@@ -30,8 +30,8 @@ O projeto foi desenvolvido para a Secretaria de Educação de Embu das Artes, um
 
 ### Back-end
 
-- **MySQL**: Criação e inplementação do banco de dados
-- - **Azure**: Criação do servidor para o banco de dados
+- **MySQL**: Criação e inplementação do banco de dados.
+- - **Azure**: Criação do servidor para o banco de dados.
 - **Node.js**: Ambiente de execução do JavaScript no servidor.
 
 ## 🛠 Instalação
