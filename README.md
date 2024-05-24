@@ -1,70 +1,60 @@
+# FECAP - Fundação de Comércio Álvares Penteado
+
+<p align="center">
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+</p>
+
+# EJA Embu das Artes: Educação para Todos
+
+## Integrantes: <a href="https://www.linkedin.com/in/mariaeflopes/">Maria Eduarda de Freitas Lopes</a>, <a href="https://www.linkedin.com/in/flavio-santos-289477209/">Flavio José</a>, <a href="https://www.linkedin.com/in/jenifer-barreto-55022523b/">Jenifer Barreto</a>, <a href="https://www.linkedin.com/in/paulo-jose-b496ba17a/">Paulo José dos Santos Junior</a>
+
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/dolemes/">David de Oliveira Lemes</a>, <a href="https://www.linkedin.com/in/katia-bossi/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/jésus-gomes-83b769108/">Jésus Gomes</a>
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O projeto foi desenvolvido para a Secretaria de Educação de Embu das Artes, um pequeno município da região metropolitana de São Paulo. Seu propósito é intermediar para os munícipes que não conseguiram concluir seus estudos dentro do prazo adequado, junto ao programa EJA (Educação de Jovens e Adultos). Ele visa também facilitar que os estudantes encontrem a escola mais próxima de suas residências, concluam seus estudos, reintegrem-se ao mercado de trabalho e contribuam para o aumento do índice de alfabetismo no município.
 
-In the project directory, you can run:
+### Objetivos:
 
-### `npm start`
+- Captar novos estudantes
+- Explicar brevemente sobre os progamas e projetos oferidos
+- Demonstrar os beneficios da retomada dos estudos.
+- Permitir que o estudante busque ajuda para assistencia nos estudos.
+- Permitir que o estudante encontre links úteis para serviços relacionados a lesgislação, projetos, materiais pedagógicos entre outros.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Front-end
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **CSS**: Para estilização e design responsivo.
 
-### `npm test`
+### Back-end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **MySQL**: Criação e inplementação do banco de dados.
+- **Azure**: Criação do servidor para o banco de dados.
+- **Node.js**: Ambiente de execução do JavaScript no servidor.
 
-### `npm run build`
+## 🛠 Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para configurar e executar o projeto localmente, siga estas etapas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (versão recomendada: 18.x ou superior)
+- NPM (incluído com o Node.js)
 
-### `npm run eject`
+### Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone o repositório do projeto:
+   ```sh
+   git clone https://github.com/2024-1-MCC2/Projeto3.git
+   ```
+2. Navegue até a pasta do projeto e instale as dependências:
+   ```sh
+   npm install
+   ```
+3. Inicie o terminal na pasta do projeto, e rode o comando:
+   ```sh
+   npm run dev
+   ```
+4. Abra o navegador e acesse `http://localhost:3000` para visualizar o site.
