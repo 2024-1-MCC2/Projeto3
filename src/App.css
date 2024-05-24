@@ -1,0 +1,60 @@
+/* navbar.css */
+.navbar {
+  background-color: green;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar .hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: green;
+  }
+
+  .navbar .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar .hamburger {
+    display: block;
+  }
+}

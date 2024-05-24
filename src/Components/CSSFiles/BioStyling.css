@@ -1,0 +1,40 @@
+
+
+.bio-name{
+color: #000000;
+font-family: "Orelega One";
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: capitalize;
+}
+.bio-text{
+color: #000;
+font-family: "Orelega One";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+position: relative;
+top: 0.2em;
+
+}
+
+
+
+.bio-end{
+    color: #999;
+font-family: "Orelega One";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: capitalize;
+position: relative;
+bottom: 1em;
+
+}

@@ -1,0 +1,15 @@
+.line{
+    width: 45em;
+    height: 3px;
+    background: linear-gradient(90deg, #009640 0%, #FFF500 50.5%, #FFDA00 64.5%, #F00 100%);
+    
+    position: absolute;
+    top: 7.7em;
+   
+}
+@media (max-width: 768px) {
+    .line{
+        width: 0;
+    }
+  }
+

@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+.contact-item {
+  width: 50%;
+  height: 33.33%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-item img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 0.4em;
+
+}
+@media (max-width: 768px) {
+  .contact-item {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .contact-item {
+    width: 100%;
+  }
+}
+h1 {
+  display: flex;
+
+  width: 100%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+}
+.contact-item h2 {
+  width: 100%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contact-item p {
+  position: relative;
+  bottom: 1em;
+  color: #999;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
