@@ -90,7 +90,12 @@ const ButtonVoltar = styled.button`
  `
 
  const TextInscri = styled.h1`
-margin-left: 15em;
+margin-left: 10em;
+
+
+@media screen and (max-width:1200px){
+    margin-left: 1em;
+}
 `
 
 

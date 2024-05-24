@@ -38,15 +38,15 @@ function InscricaoList({refresh, setRefresh}) {
         }
     }
 
-    const handleEdit = async (id) => {
-        try {
-            const response = await axios.get(`http://localhost:5000/api/formulariosite/${id}`)
-            setEditInscricao(response.data)
-            setIsModalOpen(true)
-        } catch (error) {
-            console.error('Erro ao buscar o Inscricao para edição', error)
-        }
-    }
+    // const handleEdit = async (id) => {
+    //     try {
+    //         const response = await axios.get(`http://localhost:5000/api/formulariosite/${id}`)
+    //         setEditInscricao(response.data)
+    //         setIsModalOpen(true)
+    //     } catch (error) {
+    //         console.error('Erro ao buscar o Inscricao para edição', error)
+    //     }
+    // }
 
     return (
         <ListContainer>
@@ -73,7 +73,7 @@ function InscricaoList({refresh, setRefresh}) {
                         <InscricaoDescricao>{inscricao.idEscS}</InscricaoDescricao>
                         <Actions>
                             <ActionButton onClick={() => handleDelete(inscricao.id)}>Deletar</ActionButton>
-                            <ActionButton onClick={() => handleEdit(inscricao.id)}>Editar</ActionButton>
+                            {/* <ActionButton onClick={() => handleEdit(inscricao.id)}>Editar</ActionButton> */}
                         </Actions>
                     </InscricaoInfo>
                 </InscricaoCard>
