@@ -10,6 +10,7 @@ function FormInscricao(){
     return(
         <div>
             <InscricaoForm setRefresh={setRefresh}/>
+         <h1 style = {{display:"flex", width:"100%", justifyContent: "center"}}>Dados Cadastrados</h1> 
             <InscricaoList refresh={refresh} setRefresh={setRefresh}/>
             <Footer/>
         </div>
