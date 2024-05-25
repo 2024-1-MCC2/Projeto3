@@ -149,7 +149,7 @@ function InscricaoForm({ fetchFormularioSite }) {
             <div>
             <a href="/"><ImgInsc src={Logo} alt={""}/></a>
             </div>
-            <TextInscri>Cadastro do Candidato:</TextInscri>
+             <h1 style = {{display:"flex", width:"100%", justifyContent: "center"}}>Cadastro do Candidato:</h1>
             <InscInput type="text" name="cpf" value={formData.cpf} onChange={handleChange} placeholder="CPF" required/>
             <InscInput type="text" name="cNome" value={formData.cNome} onChange={handleChange} placeholder="Nome" required/>
             <InscInput type="text" name="cCor" value={formData.cCor} onChange={handleChange} placeholder="Cor do candidato" required/>
@@ -170,7 +170,7 @@ function InscricaoForm({ fetchFormularioSite }) {
             <InscInput type="text" name="idEscS" value={formData.idEscS} onChange={handleChange} placeholder="Id Escola" required/>
             <ButtonInsc type="submit">Enviar</ButtonInsc> 
             <a href="/"><ButtonVoltar type="button">Voltar</ButtonVoltar></a> 
-            <TextInscri>Dados Cadastrados</TextInscri> 
+            
         </form> 
     )
 }
