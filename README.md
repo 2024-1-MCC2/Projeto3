@@ -65,3 +65,8 @@ Para configurar e executar o projeto localmente, siga estas etapas:
 ```sh
  Trello https://trello.com/b/FConFlbr/grupo3
 ```
+
+2. Figma:
+   ```sh
+   Figma https://www.figma.com/design/XEd2udBwbQIXns6dqJkJWF/PROJETO-EJA?node-id=0-1&t=f8QUoXbhbzVAU40G-0
+   ```
