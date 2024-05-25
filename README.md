@@ -58,3 +58,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    npm run dev
    ```
 4. Abra o navegador e acesse `http://localhost:3000` para visualizar o site.
+
+### Links de interesse
+
+1. Trello: https://trello.com/b/FConFlbr/grupo3
