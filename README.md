@@ -61,4 +61,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
 
 ### Links de interesse
 
-1. Trello: https://trello.com/b/FConFlbr/grupo3
+1. Trello:
+```sh
+ Trello https://trello.com/b/FConFlbr/grupo3
+```
